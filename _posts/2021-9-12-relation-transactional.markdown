@@ -6,7 +6,6 @@ categories: jekyll update
 tags: test
 ---
 
-
 # Relational Model vs. Transnational Model
 <span style="color:blue">Relational Models</span>
 
@@ -20,5 +19,19 @@ tags: test
 <span style="color:blue">Entity</span>
 - Person, place, things or even that are `distinguishable`, `unique` and `distinct`.
 
-
 <span style="color:orange">Attributes</span>
+- A characteristic of an entity
+
+<span style="color:green">Relationship</span>
+- Describes association among entities 
+  - One to Many
+  - Many to Many
+  - One to One 
+  
+  
+# Primary key and Foreign Key 
+<span style="color:orange">Primary Key</span>
+ - A column (or set of columns) whose values uniquely identify every row in a table.
+<span style="color:green">Foreign Key</span>
+ - One or more columns that can be used together to identify a signle row in another table. 
+
