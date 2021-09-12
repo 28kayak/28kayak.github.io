@@ -1,4 +1,4 @@
-# Jellky Blog Site
+# jekyll Blog Site
 
 
 # Test on Local
