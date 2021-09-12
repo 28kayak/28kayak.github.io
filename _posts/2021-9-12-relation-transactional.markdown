@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Relational vs. Transnational Model"
+title:  "Relational vs. Transactional Model"
 date:   2021-09-12 16:26:17 +0900
-categories: jekyll update
-tags: test
+categories: sql
+tags: sql_for_data_science
 ---
 
 # Relational Model vs. Transnational Model
