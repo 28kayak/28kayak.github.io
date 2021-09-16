@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "SQLs" 
+categories: sql
+tags: sql_for_data_science
+---
+
+# Creating A Table
+## Syntax
+```sql
+CREATE TABLE <table_name>
+(
+    Id char(10) PRIMARY KEY,
+    ColA char(10) NOT NULL
+    ...
+);
+```
+## Importance of creating a table 
+- every column is either `NULL` or `NOT NULL` 
+- An error will be returned if one tries to submit a column with no value 
+- Primary key cannot be `NULL` 
+
+# Adding Data to the Table 
+## Insert Statement
+
+```sql
+INSERT INTO <table_name>
+VALUES ('1234556', '','');
+```
+- With this type of statement, you do not have a guarantee of what data is going into whichi column.
+- `Recomended` to specify columns like below 
+
+```sql 
+INSERT INTO <table_name>
+( 
+    Id,
+    colA,
+)
+VALUES 
+(
+    '123456',
+    'DATA A'
+)
+```
