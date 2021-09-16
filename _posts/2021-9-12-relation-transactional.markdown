@@ -32,6 +32,7 @@ tags: sql_for_data_science
 # Primary key and Foreign Key 
 <span style="color:orange">Primary Key</span>
  - A column (or set of columns) whose values uniquely identify every row in a table.
+
 <span style="color:green">Foreign Key</span>
  - One or more columns that can be used together to identify a signle row in another table. 
 
